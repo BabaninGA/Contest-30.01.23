@@ -31,5 +31,6 @@ int main() {
 	for (int i = idxStart; i <= idxEnd; i++) {
 		cout << arr[i] << " ";
 	}
+	delete[] arr;
 	return 0;
 }
